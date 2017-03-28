@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Agency v1.1.1 (http://startbootstrap.com/template-overviews/agency)
- * Copyright 2013-2016 Start Bootstrap
+ * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
@@ -666,7 +666,7 @@ ul.social-buttons li a:active {
   border: none;
   min-height: 100%;
   padding: 100px 0;
-  text-align: center;
+  text-align: justify;
 }
 .portfolio-modal .modal-content h2 {
   margin-bottom: 15px;
