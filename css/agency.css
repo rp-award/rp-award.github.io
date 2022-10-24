@@ -550,6 +550,9 @@ section h3.section-subheading {
 .team-member p {
   margin-top: 0;
 }
+.award-recipient img {
+  max-width: 320px;
+}
 aside.clients img {
   margin: 50px auto;
 }
@@ -744,3 +747,4 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #FE9742;
 }
+
