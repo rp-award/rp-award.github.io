@@ -1,0 +1,37 @@
+# Site-wide settings for the Research Parasite Awards website.
+# Most year-to-year updates happen here and in the _data/*.yml files —
+# you should rarely need to touch index.html.
+
+title: The Research Parasite Awards
+description: >-
+  PSB Awards for rigorous secondary data analysis. A companion to the
+  Research Symbiont Awards.
+url: "https://researchparasite.com"
+email: parasite.award@gmail.com
+
+# Image used when the site is shared on social media (path under img/).
+share_image: img/header-bg.jpg
+
+# ---------------------------------------------------------------------------
+# Per-cycle knobs. Update these each award year.
+# ---------------------------------------------------------------------------
+award:
+  # The award year being advertised in the "Apply" section.
+  year: 2027
+  # When the current application cycle opened.
+  open_date: "June 24, 2026"
+  # Application deadline, shown verbatim in the Apply section.
+  deadline: "August 21, 2026 at 5PM HST (Hawaii Standard Time)"
+  # Which Pacific Symposium on Biocomputing the awards are presented at.
+  psb_ordinal: "32nd"
+# Past award announcement videos live in _data/videos.yml.
+
+# ---------------------------------------------------------------------------
+# Build settings (don't usually need to change these).
+# ---------------------------------------------------------------------------
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle

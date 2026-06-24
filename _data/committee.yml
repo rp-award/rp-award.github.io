@@ -1,0 +1,22 @@
+# Current selection committee members.
+# Each entry: name, image (path under img/), role, and an optional twitter/x url.
+
+- name: Joe Romano
+  image: team/joe.png
+  role: Committee Chair
+  twitter: http://twitter.com/jdromano2
+
+- name: Benoit Ballester
+  image: past-recipients/ballester.jpg
+  role: Award Cycles 2025-2026.
+  twitter: http://x.com/BenoitBallester
+
+- name: Sushma Naithani
+  image: past-recipients/naithani.jpg
+  role: Award Cycles 2025-2026.
+  twitter: http://x.com/naithani_s
+
+- name: Jessilyn Dunn
+  image: team/jessilyn.jpg
+  role: Award Cycles 2025-2028.
+  twitter: https://x.com/drjessilyn

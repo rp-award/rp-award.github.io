@@ -1,0 +1,18 @@
+/* Site-specific styles for the Research Parasite Awards.
+   Keep custom tweaks here rather than editing the vendored theme (agency.css). */
+
+/* Responsive 16:9-ish wrapper for the embedded award video. */
+.video-embed {
+  position: relative;
+  padding-bottom: 55.95854922279793%;
+  height: 0;
+  margin: 0 50px 50px;
+}
+
+.video-embed iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,31 @@
+# Honorable mentions, shown in a 3-up grid below the main recipients.
+# Each entry: name, image (path under img/), label, and a description blurb.
+
+- name: Adam Palmer
+  image: past-recipients/adam_palmer.jpg
+  label: 2019 Junior Honorable Mention
+  description: >-
+    Adam Palmer (Harvard University) analyzed clinical trials of cancer
+    therapies and discovered that the benefit of many drug combinations is due
+    to differences between patients in which single drug is most effective.
+
+- name: Marc Sze
+  image: past-recipients/marc_sze.jpg
+  label: 2019 Junior Honorable Mention
+  description: >-
+    Marc Sze (University of Michigan) noted that in emerging fields, secondary
+    analysis can help provide crucial direction on the most promising leads and
+    steer us away from those that simply generate the most buzz. He reanalyzed
+    microbiome data in one such area (obesity and the microbiota) to determine
+    the extent to which reports exaggerated the true magnitude or potential of
+    this factor.
+
+- name: Nick Brown
+  image: past-recipients/nick_brown.jpg
+  label: 2019 Senior Honorable Mention
+  description: >-
+    Nick Brown (University of Groningen) used datasets from published articles
+    to draw different conclusions from the original authors, sometimes with
+    far-reaching consequences. Certain contributions revealed weaknesses in the
+    science underlying a “smarter lunchrooms” program that was in use in nearly
+    30,000 schools.

@@ -1,0 +1,83 @@
+# Award recipients, grouped by year (newest first).
+#
+# To add a new year, copy a block and edit it. Each recipient needs:
+#   name   – displayed name (also used as the image alt text)
+#   image  – path under img/ (e.g. past-recipients/turco.jpg)
+#   label  – award category, e.g. "Junior Parasite" or "Sustained Parasitism"
+#   modal  – (optional) id of a detail modal in index.html, e.g. UriBenDavidModal
+
+- year: 2024
+  recipients:
+    - name: Gina Turco
+      image: past-recipients/turco.jpg
+      label: Junior Parasite
+    - name: Sushma Naithani
+      image: past-recipients/naithani.jpg
+      label: Sustained Parasitism
+
+- year: 2023
+  recipients:
+    - name: Michael Skinnider
+      image: past-recipients/skinnider.jpg
+      label: Junior Parasite
+    - name: Benoit Ballester
+      image: past-recipients/ballester.jpg
+      label: Sustained Parasitism
+
+- year: 2022
+  recipients:
+    - name: Jack Pilgrim
+      image: past-recipients/pilgrim.jpeg
+      label: Junior Parasite
+    - name: A. Murat Eren (Meren)
+      image: past-recipients/meren.jpeg
+      label: Sustained Parasitism
+
+- year: 2021
+  recipients:
+    - name: Nicolás Nieto
+      image: past-recipients/neito.jpeg
+      label: Junior Parasite
+    - name: Jordi Paps
+      image: past-recipients/paps.jpeg
+      label: Sustained Parasitism
+
+- year: 2020
+  recipients:
+    - name: Ayush Raman
+      image: past-recipients/ayush.jpg
+      label: Junior Parasite
+    - name: Kelley Harris
+      image: team/kelley.png
+      label: Sustained Parasitism
+
+- year: 2019
+  recipients:
+    - name: Claire Duvallet
+      image: past-recipients/claire_duvallet.jpg
+      label: Junior Parasite
+    - name: Rafael Irizarry
+      image: past-recipients/rafael_irizarry.jpg
+      label: Sustained Parasitism
+
+- year: 2018
+  recipients:
+    - name: Uri Ben-David
+      image: past-recipients/Uri_Ben_David.jpg
+      label: Junior Parasite
+      modal: UriBenDavidModal
+    - name: Julie Dunning Hotopp
+      image: past-recipients/Julie_Dunning_Hotopp.jpg
+      label: Sustained Parasitism
+      modal: JulieDunningHotoppModal
+
+- year: 2017
+  recipients:
+    - name: Kun-Hsing Yu
+      image: past-recipients/Kun-Hsing_Yu.png
+      label: Junior Parasite
+      modal: KunHsingYuModal
+    - name: Erick Turner
+      image: past-recipients/Erick_Turner.png
+      label: Sustained Parasitism
+      modal: ErickTurnerModal

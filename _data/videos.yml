@@ -1,0 +1,8 @@
+# Previous award announcement videos, shown in the "Previous Award Announcement
+# Videos" section (newest first).
+# Each entry:
+#   year           – award year the video announces
+#   loom_embed_id  – the part of the Loom embed URL after /embed/
+
+- year: 2025
+  loom_embed_id: "4f2e84729acc4ad1b5dc6cc62a23758e?sid=ed885107-4058-44cd-8382-f73a8c0f4681"

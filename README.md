@@ -1,37 +1,62 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Agency](http://startbootstrap.com/template-overviews/agency/)
+# The Research Parasite Awards website
 
-[Agency](http://startbootstrap.com/template-overviews/agency/) is a one page agency portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a working PHP contact form.
+Source for [researchparasite.com](https://researchparasite.com) — the homepage of
+the PSB Research Parasite Awards, which recognize rigorous secondary analysis of data.
 
-## Getting Started
+It's a small [Jekyll](https://jekyllrb.com/) site hosted on **GitHub Pages**. GitHub
+builds it automatically on every push to `master`; there is no separate deploy step.
 
-Several options are available to get started quickly:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/agency/)
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-agency.git`
-* Fork the repo
+## Updating the site
 
-## Developing Using Source Files
+Almost all routine updates are edits to plain-text data files — you should rarely
+need to touch the HTML.
 
-To use the source files, you will need to have npm installed globally along with Gulp.js. To start:
-* Run `npm install` in the root directory
-* Run `gulp dev` and edit the files as needed
+| To change… | Edit |
+| --- | --- |
+| Application deadline, award year, PSB number, intro video | `_config.yml` |
+| Award recipients (the year-by-year grid) | `_data/recipients.yml` |
+| Honorable mentions | `_data/honorable_mentions.yml` |
+| Current selection committee | `_data/committee.yml` |
+| Former committee members | `_data/former_members.yml` |
+| This year's sponsors | `_data/sponsors.yml` |
 
-If you need to update the plugins included with this template, simply run the following tasks:
-* First run `npm update` to update the dependencies
-* Then run `gulp copy` to copy the new versions to their proper destinations
+Each data file has a comment at the top explaining its fields. To add a new award
+year, copy the most recent block in `_data/recipients.yml` and edit the names,
+photos, and labels. Drop new photos into `img/past-recipients/` (or `img/team/`)
+and reference them by path.
 
-## Bugs and Issues
+The page structure, prose sections (Mission, Apply, COI rules), and recipient
+detail pop-ups live in:
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-agency/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/agency/).
+- `index.html` — the page sections and the loops that render the data files
+- `_includes/modals.html` — the historical recipient detail modals
+- `_layouts/default.html` — the `<head>`, footer, and script tags
 
-## Creator
+## Editing styles
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+The visual theme is the vendored [Start Bootstrap "Agency"](https://startbootstrap.com/theme/agency)
+template (`css/agency.css`, `js/agency.min.js`, plus `vendor/`). Put site-specific
+style tweaks in **`css/custom.css`** rather than editing the theme file, so the
+theme stays easy to replace later.
 
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+## Previewing locally (optional)
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+You don't need to build locally to publish — just push. But to preview changes first:
 
-## Copyright and License
+```bash
+bundle install        # one-time
+bundle exec jekyll serve
+```
 
-Copyright 2013-2016 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-agency/blob/gh-pages/LICENSE) license.
+Then open <http://localhost:4000>.
+
+## Notes
+
+- The custom domain is configured in `CNAME`.
+- The old `gulp`/LESS build from the original theme has been removed; the compiled
+  CSS/JS are committed directly and served as-is.
+
+## License
+
+Site content © the Research Parasite Awards committee. The underlying Agency theme
+is released by Start Bootstrap under the [MIT license](LICENSE).
